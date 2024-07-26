@@ -1,0 +1,83 @@
+.login-main-container {
+  height: 100vh;
+  background-color: #152850;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-login-container {
+  width: 60%;
+  background-color: #e0eefe;
+  height: 80%;
+  border-radius: 20px;
+  display: flex;
+}
+
+.imageContainer {
+  width: 60%;
+  background-color: #e0eefe;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer > img {
+  width: 80%;
+}
+
+.loginFormContainer {
+  width: 40%;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginFormContainer > h1 {
+  align-self: flex-start;
+  color: #152850;
+}
+
+label {
+  align-self: flex-start;
+  color: #152850;
+  margin-bottom: 1%;
+  font-size: 0.9vw;
+}
+
+input {
+  padding: 3%;
+  width: 100%;
+  color: #152850;
+  border: none;
+  border-radius: 4px;
+  box-shadow:
+    0px 0px 5px 2px #f8fafc,
+    -0px -0px 5px 2px #f8fafc;
+  margin-bottom: 6%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.9vw;
+}
+
+
+.loginFormContainer > button {
+   align-self: stretch; 
+   background-color: #1565d8;
+   color: #ffffff; 
+   border: none; 
+   border-radius: 4px;
+   padding: 3% 0%;
+}

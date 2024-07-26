@@ -1,0 +1,19 @@
+.notFoundMainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundMainContainer > img {
+  width: 30%;
+}
+
+.notFoundMainContainer > h1 {
+  color: #183b56;
+}
+
+.notFoundMainContainer > p {
+  color: #5a7184;
+}

@@ -1,0 +1,43 @@
+.homeMainContainer {
+  height: 100vh;
+  background-color: #152850;
+}
+
+nav {
+  height: 10vh;
+  padding: 1% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > img {
+  width: 100px;
+  height: 40px;
+}
+
+nav > button {
+  background-color: transparent;
+  border: 1px solid #e0eefe;
+  color: #e0eefe;
+  padding: 0.5% 2%;
+}
+
+.homeInnerContainer {
+  width: 70%;
+  height: 90vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeInnerContainer > h1 {
+  color: #ffffff;
+}
+
+.homeInnerContainer > img {
+  width: 40%;
+}
